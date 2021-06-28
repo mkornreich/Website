@@ -1,0 +1,146 @@
+body {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 30px auto;
+    width: 70%;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul {
+    float: left;
+    font-size: 1.5em;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+nav ul.title {
+    float: left;
+}
+div.clear {
+    clear: both;
+}
+
+footer ul li a, footer ul li img {
+    vertical-align: middle;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+a {
+    text-decoration: none;
+    color: #68d;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.title {
+    color: #000;
+}
+
+h1, h2, h3, h4 {
+    /* margin-top: 1em; */
+}
+h1 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.post h1, .post h2, .post h3, .post h4 {
+  margin-top: 1.5em;
+}
+
+ul.posts, ul.publications, ul.projects, ul.talks {
+    margin: 20px auto 40px;
+}
+
+ul.posts li, ul.publications li, ul.projects li, ul.talks li {
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 2em;
+    text-indent:-2em;
+    line-height: 25px;
+}
+
+ul.posts li p {
+  text-indent:0em;
+  font-size: 1em;
+}
+
+p, ol, ul {
+    color: #333;
+}
+
+.post ul, .post ol {
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.post ul li, .post ol li {
+  margin-bottom: 20px;
+  padding-left: .5em;
+  text-indent: 0em;
+}
+
+ul.publications li span, ul.talks li span {
+    font-weight: bold;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.image {
+    margin: 0 auto;
+    display: block;
+}
+.img-caption {
+    margin: 0 auto;
+    display: block;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.footnote {
+    font-size: 0.8em !important;
+}
+
+.right {
+    text-align: right;
+}
+
+blockquote {
+    padding: 0 1.3em;
+    background-color: #cdf;
+    border: solid 1px black;
+}
+
+#markdown-toc {
+  font-size: .8em;
+  line-height: .8em;
+}
+
+#markdown-toc li {
+  margin: 10px 0;
+}
+
+#markdown-toc ol, #markdown-toc ul {
+  margin: 0;
+  /* padding: 0; */
+}
+
+#headshot {
+  border-radius: 50%;
+  border: 5px solid #ddd;
+}
+
+.blurb {
+  margin-left: 210px;
+}
