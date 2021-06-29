@@ -826,7 +826,7 @@ border-collapse: collapse;
 		    var ws = XLSX.utils.aoa_to_sheet(aoa);
 		    var html_string = XLSX.utils.sheet_to_html(ws, {
 			id: "data-table",
-			editable: true
+			editable: false
 		    });
 		    //console.log(html_string);
 		    document.getElementById("container").innerHTML = html_string;
